@@ -8,13 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E995272C8AC800729BB7 /* AppDelegate.swift */; };
-		B8B2E998272C8AC800729BB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E997272C8AC800729BB7 /* ContentView.swift */; };
 		B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E999272C8AC800729BB7 /* Experience.rcproject */; };
 		B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E99B272C8AC900729BB7 /* Assets.xcassets */; };
 		B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E99E272C8AC900729BB7 /* Preview Assets.xcassets */; };
 		B8B2E9A9272C8ACA00729BB7 /* EmpathyBytesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9A8272C8ACA00729BB7 /* EmpathyBytesAppTests.swift */; };
 		B8B2E9B3272C8ACA00729BB7 /* EmpathyBytesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9B2272C8ACA00729BB7 /* EmpathyBytesAppUITests.swift */; };
 		B8B2E9B5272C8ACA00729BB7 /* EmpathyBytesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9B4272C8ACA00729BB7 /* EmpathyBytesAppUITestsLaunchTests.swift */; };
+		B8B2E9C2272C8CC800729BB7 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9C1272C8CC800729BB7 /* AboutUs.swift */; };
+		B8B2E9C6272C8CE600729BB7 /* ARMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9C5272C8CE600729BB7 /* ARMenu.swift */; };
+		B8B2E9C9272C8D1400729BB7 /* ARMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9C8272C8D1400729BB7 /* ARMenuView.swift */; };
+		B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E9CA272C8D1F00729BB7 /* ARViewStoryboard.storyboard */; };
+		B8B2E9CD272C8D2400729BB7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9CC272C8D2400729BB7 /* CustomTableViewCell.swift */; };
+		B8B2E9CF272C8D3000729BB7 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9CE272C8D3000729BB7 /* cardView.swift */; };
+		B8B2E9D1272C8D3500729BB7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9D0272C8D3500729BB7 /* CircleImage.swift */; };
+		B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9D2272C8D3D00729BB7 /* ContentView.swift */; };
+		B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E9D4272C8D4400729BB7 /* dickAudio.mp3 */; };
+		B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */; };
+		B8B2E9DA272C8D5500729BB7 /* georgiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9D9272C8D5500729BB7 /* georgiaView.swift */; };
+		B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9DB272C8D6100729BB7 /* interviewView.swift */; };
+		B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E9DD272C8D6800729BB7 /* marionAudio.mp3 */; };
+		B8B2E9E0272C8E8A00729BB7 /* marionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9DF272C8E8A00729BB7 /* marionView.swift */; };
+		B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E1272C8E9C00729BB7 /* matthewView.swift */; };
+		B8B2E9E4272C8EA100729BB7 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E3272C8EA100729BB7 /* MusicView.swift */; };
+		B8B2E9E6272C8EA500729BB7 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E5272C8EA500729BB7 /* Sounds.swift */; };
+		B8B2E9E8272C8EA900729BB7 /* SUIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */; };
+		B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E9272C8EAE00729BB7 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +55,6 @@
 /* Begin PBXFileReference section */
 		B8B2E992272C8AC800729BB7 /* EmpathyBytesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpathyBytesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2E995272C8AC800729BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8B2E997272C8AC800729BB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8B2E999272C8AC800729BB7 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		B8B2E99B272C8AC900729BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8B2E99E272C8AC900729BB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +63,26 @@
 		B8B2E9AE272C8ACA00729BB7 /* EmpathyBytesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpathyBytesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2E9B2272C8ACA00729BB7 /* EmpathyBytesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesAppUITests.swift; sourceTree = "<group>"; };
 		B8B2E9B4272C8ACA00729BB7 /* EmpathyBytesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8B2E9C1272C8CC800729BB7 /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutUs.swift; path = ../../../CompleteProject/EmpathyApp/empathyApp/AboutUs.swift; sourceTree = "<group>"; };
+		B8B2E9C5272C8CE600729BB7 /* ARMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMenu.swift; sourceTree = "<group>"; };
+		B8B2E9C8272C8D1400729BB7 /* ARMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMenuView.swift; sourceTree = "<group>"; };
+		B8B2E9CA272C8D1F00729BB7 /* ARViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ARViewStoryboard.storyboard; sourceTree = "<group>"; };
+		B8B2E9CC272C8D2400729BB7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B8B2E9CE272C8D3000729BB7 /* cardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		B8B2E9D0272C8D3500729BB7 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B8B2E9D2272C8D3D00729BB7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8B2E9D4272C8D4400729BB7 /* dickAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dickAudio.mp3; sourceTree = "<group>"; };
+		B8B2E9D6272C8D4700729BB7 /* empathyApp_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = empathyApp_header.h; sourceTree = "<group>"; };
+		B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = empathyAppApp.swift; sourceTree = "<group>"; };
+		B8B2E9D9272C8D5500729BB7 /* georgiaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = georgiaView.swift; sourceTree = "<group>"; };
+		B8B2E9DB272C8D6100729BB7 /* interviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interviewView.swift; sourceTree = "<group>"; };
+		B8B2E9DD272C8D6800729BB7 /* marionAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marionAudio.mp3; sourceTree = "<group>"; };
+		B8B2E9DF272C8E8A00729BB7 /* marionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = marionView.swift; sourceTree = "<group>"; };
+		B8B2E9E1272C8E9C00729BB7 /* matthewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = matthewView.swift; sourceTree = "<group>"; };
+		B8B2E9E3272C8EA100729BB7 /* MusicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		B8B2E9E5272C8EA500729BB7 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUIVideoPlayer.swift; sourceTree = "<group>"; };
+		B8B2E9E9272C8EAE00729BB7 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +133,24 @@
 		B8B2E994272C8AC800729BB7 /* EmpathyBytesApp */ = {
 			isa = PBXGroup;
 			children = (
+				B8B2E9C7272C8CFF00729BB7 /* ARMenuComponent */,
 				B8B2E995272C8AC800729BB7 /* AppDelegate.swift */,
-				B8B2E997272C8AC800729BB7 /* ContentView.swift */,
+				B8B2E9CE272C8D3000729BB7 /* cardView.swift */,
+				B8B2E9D0272C8D3500729BB7 /* CircleImage.swift */,
+				B8B2E9D2272C8D3D00729BB7 /* ContentView.swift */,
+				B8B2E9D4272C8D4400729BB7 /* dickAudio.mp3 */,
+				B8B2E9D6272C8D4700729BB7 /* empathyApp_header.h */,
+				B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */,
+				B8B2E9D9272C8D5500729BB7 /* georgiaView.swift */,
+				B8B2E9DB272C8D6100729BB7 /* interviewView.swift */,
+				B8B2E9DD272C8D6800729BB7 /* marionAudio.mp3 */,
+				B8B2E9C1272C8CC800729BB7 /* AboutUs.swift */,
+				B8B2E9E1272C8E9C00729BB7 /* matthewView.swift */,
+				B8B2E9E3272C8EA100729BB7 /* MusicView.swift */,
+				B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */,
+				B8B2E9E9272C8EAE00729BB7 /* Utility.swift */,
+				B8B2E9E5272C8EA500729BB7 /* Sounds.swift */,
+				B8B2E9DF272C8E8A00729BB7 /* marionView.swift */,
 				B8B2E999272C8AC800729BB7 /* Experience.rcproject */,
 				B8B2E99B272C8AC900729BB7 /* Assets.xcassets */,
 				B8B2E99D272C8AC900729BB7 /* Preview Content */,
@@ -128,6 +181,17 @@
 				B8B2E9B4272C8ACA00729BB7 /* EmpathyBytesAppUITestsLaunchTests.swift */,
 			);
 			path = EmpathyBytesAppUITests;
+			sourceTree = "<group>";
+		};
+		B8B2E9C7272C8CFF00729BB7 /* ARMenuComponent */ = {
+			isa = PBXGroup;
+			children = (
+				B8B2E9C5272C8CE600729BB7 /* ARMenu.swift */,
+				B8B2E9C8272C8D1400729BB7 /* ARMenuView.swift */,
+				B8B2E9CA272C8D1F00729BB7 /* ARViewStoryboard.storyboard */,
+				B8B2E9CC272C8D2400729BB7 /* CustomTableViewCell.swift */,
+			);
+			path = ARMenuComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +298,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
+				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
+				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
 				B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +327,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B2E998272C8AC800729BB7 /* ContentView.swift in Sources */,
+				B8B2E9DA272C8D5500729BB7 /* georgiaView.swift in Sources */,
+				B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */,
+				B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */,
+				B8B2E9CD272C8D2400729BB7 /* CustomTableViewCell.swift in Sources */,
+				B8B2E9E6272C8EA500729BB7 /* Sounds.swift in Sources */,
+				B8B2E9D1272C8D3500729BB7 /* CircleImage.swift in Sources */,
+				B8B2E9E0272C8E8A00729BB7 /* marionView.swift in Sources */,
+				B8B2E9CF272C8D3000729BB7 /* cardView.swift in Sources */,
+				B8B2E9E8272C8EA900729BB7 /* SUIVideoPlayer.swift in Sources */,
+				B8B2E9C2272C8CC800729BB7 /* AboutUs.swift in Sources */,
+				B8B2E9E4272C8EA100729BB7 /* MusicView.swift in Sources */,
+				B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */,
+				B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */,
 				B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */,
+				B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */,
+				B8B2E9C9272C8D1400729BB7 /* ARMenuView.swift in Sources */,
 				B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */,
+				B8B2E9C6272C8CE600729BB7 /* ARMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

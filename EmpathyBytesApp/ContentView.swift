@@ -1,43 +1,97 @@
 //
 //  ContentView.swift
-//  EmpathyBytesApp
+//  test
 //
-//  Created by Harsha Karanth on 10/29/21.
+//  Created by Pranathi Singareddy on 10/3/20.
 //
-
 import SwiftUI
-import RealityKit
+import UIKit
 
-struct ContentView : View {
+
+struct ContentView: View {
+    @State private var showDetails = false
+    @State private var showView = false
+    @State private var showAbout = false
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        NavigationView {
+                    VStack {
+                        Image("logoCircuitsTech")
+                             .resizable()
+                             .edgesIgnoringSafeArea(.all)
+                             .scaledToFit()
+                     
+                         Text("Empathy Bytes")
+                             .fontWeight(.bold)
+                             .font(.custom("Georgia", size: 40))
+                             .foregroundColor(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+                            .padding()
+                        NavigationLink(destination: interviewView()) {
+                            Text("Interviews")
+                                .fontWeight(.bold)
+                                .font(.custom("Georgia", size: 25))
+                                .padding()
+                                .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+                                .cornerRadius(40)
+                                .foregroundColor(.white)
+                                .padding(10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 40)
+                                        .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
+                                )
+                        }
+                        NavigationLink(destination: MusicView()) {
+                            Text("Podcasts")
+                                .fontWeight(.bold)
+                                .font(.custom("Georgia", size: 25))
+                                .padding()
+                                .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+                                .cornerRadius(40)
+                                .foregroundColor(.white)
+                                .padding(10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 40)
+                                        .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
+                                )
+                        }
+                        NavigationLink(destination: AboutUs()) {
+                            Text("About Us")
+                                .fontWeight(.bold)
+                                .font(.custom("Georgia", size: 25))
+                                .padding()
+                                .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+                                .cornerRadius(40)
+                                .foregroundColor(.white)
+                                .padding(10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 40)
+                                        .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
+                                )
+                        }
+                        NavigationLink(destination: ARMenuView()) {
+                            Text("AR")
+                                .fontWeight(.bold)
+                                .font(.custom("Georgia", size: 25))
+                                .padding()
+                                .background(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255))
+                                .cornerRadius(40)
+                                .foregroundColor(.white)
+                                .padding(10)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 40)
+                                        .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
+                                )
+                        }
+                        
+                    }
+                }
+        
+       
     }
+    
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
-        return arView
-        
-    }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
-}
-
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-#endif
