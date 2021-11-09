@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 class ARMenu : UIViewController{
     
@@ -86,13 +87,29 @@ extension ARMenu : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return indexPath.row % 2 == 0 ? 100 : 150
     }
+    
+    /*
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("in did select")
+        let model = models[indexPath.row % models.count]
+        let host = UIHostingController(rootView: ModelDescriptionView(modelEntity: model))
+        navigationController?.pushViewController(host, animated: true)
+        
+    }
+     */
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let model = models[indexPath.row % models.count]
+        let host = UIHostingController(rootView: ModelDescriptionView(modelEntity: model))
+        navigationController?.pushViewController(host, animated: true)
+    }
 }
 
 extension ARMenu {
     /** Creates models objects with name and image */
     func fetchData() -> [ModelEntity] {
-        let model1 = ModelEntity(imageName: ImageConstants.toyAirplane , title: ImageConstants.toyAirplaneTitle)
-        let model2 = ModelEntity(imageName: ImageConstants.guitar, title: ImageConstants.guitarTitle)
+        let model1 = ModelEntity(imageName: ImageConstants.toyAirplane , title: ImageConstants.toyAirplaneTitle, description: ImageConstants.toyAirplaneDescription)
+        let model2 = ModelEntity(imageName: ImageConstants.guitar, title: ImageConstants.guitarTitle, description: ImageConstants.guitarAirplaneDescription)
         return [model1,model2]
     }
     

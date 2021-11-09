@@ -8,7 +8,6 @@ class CustomTableViewCell: UITableViewCell {
     
     private let cellImageView : UIImageView = {
         let imgView = UIImageView()
-        imgView.image = UIImage(named:"ToyAirplane")
         imgView.contentMode = .scaleAspectFill
         return imgView
     }()
