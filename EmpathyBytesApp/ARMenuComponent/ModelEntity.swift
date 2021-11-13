@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import Foundation
+import SwiftUI
 
 struct ModelEntity {
-    var imageName: String
+    @State var imageName: String
     var title: String
     var description: String
 }

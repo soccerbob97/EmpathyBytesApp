@@ -3,6 +3,7 @@ import UIKit
 import SwiftUI
 
 struct ARModelView: UIViewControllerRepresentable {
+    @Binding var modelTitle : String
     func updateUIViewController(_ uiViewController: ARModel, context: Context) {
 
     }
@@ -13,7 +14,7 @@ struct ARModelView: UIViewControllerRepresentable {
         let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "ARModel")
                 as ARModel;
         // create viewController for ARMenu that uses the ARViewStoryboard
-
+        viewController.modelTitle = modelTitle
         return viewController
     }
 

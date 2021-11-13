@@ -12,12 +12,14 @@ import Combine
 
 class ARModel : UIViewController {
     @IBOutlet var arView: ARView!
+    
+    var modelTitle:String = "";
 
     override func viewDidLoad() {
         super.viewDidLoad()
         var cancellable: AnyCancellable? = nil;
         let sphereAnchor = AnchorEntity(world: SIMD3(x:0, y:0, z:-50));
-        cancellable = RealityKit.ModelEntity.loadModelAsync(named: "toy_biplane", in:nil).collect().sink(receiveCompletion: {error in print("Error: \(error)")
+        cancellable = RealityKit.ModelEntity.loadModelAsync(named: modelTitle, in:nil).collect().sink(receiveCompletion: {error in print("Error: \(error)")
             cancellable?.cancel()
         }, receiveValue: { entities in
             //var object : ModelEntity = entity
@@ -26,9 +28,7 @@ class ARModel : UIViewController {
                 entity.generateCollisionShapes(recursive: true)
                 sphereAnchor.addChild(entity);
             }
-            
         });
-        print("arview ", arView)
         arView.scene.addAnchor(sphereAnchor);
     }
 }

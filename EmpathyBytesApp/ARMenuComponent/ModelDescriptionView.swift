@@ -26,7 +26,7 @@ struct ModelDescriptionView: View {
                 .font(.body)
                 .padding()
             Spacer()
-            NavigationLink(destination: ARModelView()) {
+            NavigationLink(destination: ARModelView(modelTitle:modelEntity.$imageName )) {
                 Text("See Model!")
                     .fontWeight(.bold)
                     .font(.custom("Georgia", size: 25))
