@@ -84,7 +84,10 @@ extension ARMenu : UITableViewDataSource, UITableViewDelegate {
     }
     /** Returns height for each row */
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return indexPath.row % 2 == 0 ? 100 : 150
+        if (indexPath.row == 4) {
+            return 300
+        }
+        return 125
     }
     
     /*
@@ -108,8 +111,12 @@ extension ARMenu {
     /** Creates models objects with name and image */
     func fetchData() -> [ModelEntity] {
         let model1 = ModelEntity(imageName: ImageConstants.toyAirplane , title: ImageConstants.toyAirplaneTitle, description: ImageConstants.toyAirplaneDescription)
-        let model2 = ModelEntity(imageName: ImageConstants.guitar, title: ImageConstants.guitarTitle, description: ImageConstants.guitarAirplaneDescription)
-        return [model1,model2]
+        let model2 = ModelEntity(imageName: ImageConstants.skateboard, title: ImageConstants.skateboardTitle, description: ImageConstants.skateboardDescription)
+        let model3 = ModelEntity(imageName: ImageConstants.cncControlPanel, title: ImageConstants.cncControlPanelTitle, description: ImageConstants.cncControlPanelDescription)
+        let model4 = ModelEntity(imageName: ImageConstants.flowerPot, title: ImageConstants.flowerPotTitle, description: ImageConstants.flowerPotDescription)
+        let model5 = ModelEntity(imageName: ImageConstants.christmasTree, title: ImageConstants.christmasTreeTitle, description: ImageConstants.christmasTreeDescription)
+
+        return [model1,model2,model3,model4,model5]
     }
     
 }
