@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C32754029100501F5D /* CNCControlPanel.usdz */; };
+		7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C5275402A000501F5D /* Skateboard.usdz */; };
+		7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C6275402A000501F5D /* ToyAirplane.usdz */; };
+		7A4025CD275402A300501F5D /* ARModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4025C7275402A000501F5D /* ARModelView.swift */; };
+		7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C8275402A200501F5D /* ChristmasTree.usdz */; };
+		7A4025CF275402A300501F5D /* FlowerPot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C9275402A300501F5D /* FlowerPot.usdz */; };
+		7A4025D2275402F400501F5D /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4025D1275402F400501F5D /* ARModel.swift */; };
+		7A4025D4275405C700501F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025D3275405C700501F5D /* Main.storyboard */; };
+		7A4025DE27540ED700501F5D /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025DD27540ED700501F5D /* WoodenTable.usdz */; };
 		7A4561B227515D37002947A2 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B127515D36002947A2 /* AboutUs.swift */; };
 		7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B327515D84002947A2 /* ImageConstants.swift */; };
 		7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B527515D89002947A2 /* ModelDescriptionView.swift */; };
 		7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B727515D8E002947A2 /* ModelEntity.swift */; };
-		7A4561BC27515DE4002947A2 /* ARModelComponent in Resources */ = {isa = PBXBuildFile; fileRef = 7A4561BB27515DE4002947A2 /* ARModelComponent */; };
 		B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E995272C8AC800729BB7 /* AppDelegate.swift */; };
 		B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E999272C8AC800729BB7 /* Experience.rcproject */; };
 		B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E99B272C8AC900729BB7 /* Assets.xcassets */; };
@@ -57,11 +65,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A4025C32754029100501F5D /* CNCControlPanel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = CNCControlPanel.usdz; sourceTree = "<group>"; };
+		7A4025C5275402A000501F5D /* Skateboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Skateboard.usdz; sourceTree = "<group>"; };
+		7A4025C6275402A000501F5D /* ToyAirplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyAirplane.usdz; sourceTree = "<group>"; };
+		7A4025C7275402A000501F5D /* ARModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARModelView.swift; sourceTree = "<group>"; };
+		7A4025C8275402A200501F5D /* ChristmasTree.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ChristmasTree.usdz; sourceTree = "<group>"; };
+		7A4025C9275402A300501F5D /* FlowerPot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = FlowerPot.usdz; sourceTree = "<group>"; };
+		7A4025D1275402F400501F5D /* ARModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		7A4025D3275405C700501F5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7A4025DD27540ED700501F5D /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WoodenTable.usdz; path = ../../../../ARModelComponent/WoodenTable.usdz; sourceTree = "<group>"; };
 		7A4561B127515D36002947A2 /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		7A4561B327515D84002947A2 /* ImageConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 		7A4561B527515D89002947A2 /* ModelDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDescriptionView.swift; sourceTree = "<group>"; };
 		7A4561B727515D8E002947A2 /* ModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
-		7A4561BB27515DE4002947A2 /* ARModelComponent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ARModelComponent; sourceTree = "<group>"; };
 		B8B2E992272C8AC800729BB7 /* EmpathyBytesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpathyBytesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2E995272C8AC800729BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B2E999272C8AC800729BB7 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
@@ -118,6 +134,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A4025C22754022D00501F5D /* ARModelComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7A4025C32754029100501F5D /* CNCControlPanel.usdz */,
+				7A4025C7275402A000501F5D /* ARModelView.swift */,
+				7A4025D1275402F400501F5D /* ARModel.swift */,
+				7A4025C8275402A200501F5D /* ChristmasTree.usdz */,
+				7A4025D3275405C700501F5D /* Main.storyboard */,
+				7A4025C9275402A300501F5D /* FlowerPot.usdz */,
+				7A4025C5275402A000501F5D /* Skateboard.usdz */,
+				7A4025DD27540ED700501F5D /* WoodenTable.usdz */,
+				7A4025C6275402A000501F5D /* ToyAirplane.usdz */,
+			);
+			path = ARModelComponent;
+			sourceTree = "<group>";
+		};
 		B8B2E989272C8AC800729BB7 = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +173,7 @@
 		B8B2E994272C8AC800729BB7 /* EmpathyBytesApp */ = {
 			isa = PBXGroup;
 			children = (
-				7A4561BB27515DE4002947A2 /* ARModelComponent */,
+				7A4025C22754022D00501F5D /* ARModelComponent */,
 				B8B2E9C7272C8CFF00729BB7 /* ARMenuComponent */,
 				B8B2E995272C8AC800729BB7 /* AppDelegate.swift */,
 				B8B2E9CE272C8D3000729BB7 /* cardView.swift */,
@@ -310,12 +342,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4025DE27540ED700501F5D /* WoodenTable.usdz in Resources */,
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
+				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
+				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
+				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
+				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
+				7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */,
 				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
+				7A4025CF275402A300501F5D /* FlowerPot.usdz in Resources */,
 				B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */,
-				7A4561BC27515DE4002947A2 /* ARModelComponent in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +398,9 @@
 				B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */,
 				B8B2E9C9272C8D1400729BB7 /* ARMenuView.swift in Sources */,
 				B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */,
+				7A4025D2275402F400501F5D /* ARModel.swift in Sources */,
 				B8B2E9C6272C8CE600729BB7 /* ARMenu.swift in Sources */,
+				7A4025CD275402A300501F5D /* ARModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +561,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmpathyBytesApp/Preview Content\"";
-				DEVELOPMENT_TEAM = NN4G65LXQ3;
+				DEVELOPMENT_TEAM = RY3CZHH244;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -531,6 +571,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,7 +593,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmpathyBytesApp/Preview Content\"";
-				DEVELOPMENT_TEAM = NN4G65LXQ3;
+				DEVELOPMENT_TEAM = RY3CZHH244;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -562,6 +603,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

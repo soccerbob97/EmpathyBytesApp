@@ -115,8 +115,9 @@ extension ARMenu {
         let model3 = ModelEntity(imageName: ImageConstants.cncControlPanel, title: ImageConstants.cncControlPanelTitle, description: ImageConstants.cncControlPanelDescription)
         let model4 = ModelEntity(imageName: ImageConstants.flowerPot, title: ImageConstants.flowerPotTitle, description: ImageConstants.flowerPotDescription)
         let model5 = ModelEntity(imageName: ImageConstants.christmasTree, title: ImageConstants.christmasTreeTitle, description: ImageConstants.christmasTreeDescription)
+        let model6 = ModelEntity(imageName: ImageConstants.woodenTable, title: ImageConstants.woodenTableTitle, description: ImageConstants.woodenTableDescription)
 
-        return [model1,model2,model3,model4,model5]
+        return [model1,model2,model3,model4,model5,model6]
     }
     
 }
