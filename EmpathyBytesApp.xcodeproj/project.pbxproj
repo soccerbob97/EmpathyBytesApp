@@ -46,6 +46,8 @@
 		B8B2E9E6272C8EA500729BB7 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E5272C8EA500729BB7 /* Sounds.swift */; };
 		B8B2E9E8272C8EA900729BB7 /* SUIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */; };
 		B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E9272C8EAE00729BB7 /* Utility.swift */; };
+		C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */; };
+		C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 		B8B2E9E5272C8EA500729BB7 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUIVideoPlayer.swift; sourceTree = "<group>"; };
 		B8B2E9E9272C8EAE00729BB7 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
+		C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MechanicalKeyboard.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				7A4025C32754029100501F5D /* CNCControlPanel.usdz */,
+				C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */,
 				7A4025C7275402A000501F5D /* ARModelView.swift */,
 				7A4025D1275402F400501F5D /* ARModel.swift */,
 				7A4025C8275402A200501F5D /* ChristmasTree.usdz */,
@@ -345,17 +350,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA3E1D5275A817600B7549F /* WoodenTable.usdz in Resources */,
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
 				1D328837275A9905009F4553 /* StudioStand.usdz in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
 				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
+				C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */,
 				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
 				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
 				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
 				7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */,
 				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
+				C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */,
 				7A4025CF275402A300501F5D /* FlowerPot.usdz in Resources */,
 				B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */,
 			);

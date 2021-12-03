@@ -117,8 +117,9 @@ extension ARMenu {
         let model5 = ModelEntity(imageName: ImageConstants.christmasTree, title: ImageConstants.christmasTreeTitle, description: ImageConstants.christmasTreeDescription)
         let model6 = ModelEntity(imageName: ImageConstants.woodenTable, title: ImageConstants.woodenTableTitle, description: ImageConstants.woodenTableDescription)
         let model7 = ModelEntity(imageName: ImageConstants.studioStand, title: ImageConstants.studioStandTitle, description: ImageConstants.studioStandDescription)
-
-        return [model1,model2,model3,model4,model5,model6, model7]
+        let model8 = ModelEntity(imageName: ImageConstants.mechanicalKeyboard, title:
+            ImageConstants.mechanicalKeyboardTitle, description:ImageConstants.mechanicalKeyboardDescription)
+        return [model1,model2,model3,model4,model5,model6,model7,model8]
     }
     
 }
