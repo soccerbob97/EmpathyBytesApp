@@ -29,6 +29,9 @@ struct ImageConstants {
     static let christmasTreeTitle: String = "Christmas Tree Ornaments"
     static let christmasTreeDescription: String = "Students love making Christmas ornaments at the HIVE. It is a fun way to combine engineering and the holiday spirit into an activity. Students can use the CNC machine to create wooden ornaments and the 3d printer to create ornaments beyond imagination."
     
+    static let woodenTable = "WoodenTable";
+    static let woodenTableTitle = "Furniture by Matthew"
+    static let woodenTableDescription:String = "Matthew used the Makerspace to create different furniture pieces to liven up and transform his room. He used the Hive Makerspace to stain and cut pieces of wood that he later used in building his furniture. Additionally, he used the machinery in the makerspace and his skills in wood-building to create floats for the Homecoming parade."
     
 
 }
