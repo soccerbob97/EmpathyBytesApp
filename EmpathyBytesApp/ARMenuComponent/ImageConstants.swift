@@ -33,5 +33,9 @@ struct ImageConstants {
     static let woodenTableTitle = "Furniture by Matthew"
     static let woodenTableDescription:String = "Matthew used the Makerspace to create different furniture pieces to liven up and transform his room. He used the Hive Makerspace to stain and cut pieces of wood that he later used in building his furniture. Additionally, he used the machinery in the makerspace and his skills in wood-building to create floats for the Homecoming parade."
     
+    static let mechanicalKeyboard = "MechanicalKeyboard";
+    static let mechanicalKeyboardTitle = "Mechanical Keyboard";
+    static let mechanicalKeyboardDescription = "Mechanical keyboards are all the rage in enthusiast circles, and some Georgia Tech students have utilized the makerspace to fabricate their very own keyboards from scratch. Tech students make in-house mechanical keyboards by 3D-printing frames, keycaps, and other components easily found online. This keyboard is one of many free-to-use models available online to print from, making it very easy for creators to collaborate and share project components. Georgia Tech even has its own mechanical keyboard club on campus!";
+    
 
 }
