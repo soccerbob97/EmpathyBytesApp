@@ -33,5 +33,8 @@ struct ImageConstants {
     static let woodenTableTitle = "Furniture by Matthew"
     static let woodenTableDescription:String = "Matthew used the Makerspace to create different furniture pieces to liven up and transform his room. He used the Hive Makerspace to stain and cut pieces of wood that he later used in building his furniture. Additionally, he used the machinery in the makerspace and his skills in wood-building to create floats for the Homecoming parade."
     
+    static let studioStand = "StudioStand"
+    static let studioStandTitle: String = "Studio Output Stand"
+    static let studioStandDescription: String = "Nathan designed and created a wooden shelf with his friend to add a nice touch to his studio room. He used the makerspace to sand, stain, and finish wood to put together the pieces to create a shelf."
 
 }
