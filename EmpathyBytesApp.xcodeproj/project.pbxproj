@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D328837275A9905009F4553 /* StudioStand.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1D328836275A9905009F4553 /* StudioStand.usdz */; };
 		7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C32754029100501F5D /* CNCControlPanel.usdz */; };
 		7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C5275402A000501F5D /* Skateboard.usdz */; };
 		7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C6275402A000501F5D /* ToyAirplane.usdz */; };
@@ -19,6 +20,7 @@
 		7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B327515D84002947A2 /* ImageConstants.swift */; };
 		7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B527515D89002947A2 /* ModelDescriptionView.swift */; };
 		7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B727515D8E002947A2 /* ModelEntity.swift */; };
+		7AA3E1D5275A817600B7549F /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3E1D4275A817600B7549F /* WoodenTable.usdz */; };
 		B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E995272C8AC800729BB7 /* AppDelegate.swift */; };
 		B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E999272C8AC800729BB7 /* Experience.rcproject */; };
 		B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E99B272C8AC900729BB7 /* Assets.xcassets */; };
@@ -66,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D328836275A9905009F4553 /* StudioStand.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = StudioStand.usdz; sourceTree = "<group>"; };
 		7A4025C32754029100501F5D /* CNCControlPanel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = CNCControlPanel.usdz; sourceTree = "<group>"; };
 		7A4025C5275402A000501F5D /* Skateboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Skateboard.usdz; sourceTree = "<group>"; };
 		7A4025C6275402A000501F5D /* ToyAirplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyAirplane.usdz; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		7A4561B327515D84002947A2 /* ImageConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 		7A4561B527515D89002947A2 /* ModelDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDescriptionView.swift; sourceTree = "<group>"; };
 		7A4561B727515D8E002947A2 /* ModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
+		7AA3E1D4275A817600B7549F /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		B8B2E992272C8AC800729BB7 /* EmpathyBytesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpathyBytesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2E995272C8AC800729BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B2E999272C8AC800729BB7 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
@@ -146,8 +150,9 @@
 				7A4025C8275402A200501F5D /* ChristmasTree.usdz */,
 				7A4025D3275405C700501F5D /* Main.storyboard */,
 				7A4025C9275402A300501F5D /* FlowerPot.usdz */,
+				7AA3E1D4275A817600B7549F /* WoodenTable.usdz */,
+				1D328836275A9905009F4553 /* StudioStand.usdz */,
 				7A4025C5275402A000501F5D /* Skateboard.usdz */,
-				C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */,
 				7A4025C6275402A000501F5D /* ToyAirplane.usdz */,
 			);
 			path = ARModelComponent;
@@ -347,6 +352,7 @@
 			files = (
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
+				1D328837275A9905009F4553 /* StudioStand.usdz in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
 				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
 				C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */,
@@ -575,7 +581,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,7 +613,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
