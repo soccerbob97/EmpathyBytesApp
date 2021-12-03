@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D32882F275A7D4D009F4553 /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1D32882E275A7D4D009F4553 /* WoodenTable.usdz */; };
 		1D328833275A8361009F4553 /* StudioStand.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1D328832275A8361009F4553 /* StudioStand.usdz */; };
+		1D328835275A8922009F4553 /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1D328834275A8922009F4553 /* WoodenTable.usdz */; };
 		7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C32754029100501F5D /* CNCControlPanel.usdz */; };
 		7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C5275402A000501F5D /* Skateboard.usdz */; };
 		7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7A4025C6275402A000501F5D /* ToyAirplane.usdz */; };
@@ -66,8 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D32882E275A7D4D009F4553 /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		1D328832275A8361009F4553 /* StudioStand.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = StudioStand.usdz; sourceTree = "<group>"; };
+		1D328834275A8922009F4553 /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		7A4025C32754029100501F5D /* CNCControlPanel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = CNCControlPanel.usdz; sourceTree = "<group>"; };
 		7A4025C5275402A000501F5D /* Skateboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Skateboard.usdz; sourceTree = "<group>"; };
 		7A4025C6275402A000501F5D /* ToyAirplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ToyAirplane.usdz; sourceTree = "<group>"; };
@@ -146,8 +146,8 @@
 				7A4025D3275405C700501F5D /* Main.storyboard */,
 				7A4025C9275402A300501F5D /* FlowerPot.usdz */,
 				7A4025C5275402A000501F5D /* Skateboard.usdz */,
+				1D328834275A8922009F4553 /* WoodenTable.usdz */,
 				1D328832275A8361009F4553 /* StudioStand.usdz */,
-				1D32882E275A7D4D009F4553 /* WoodenTable.usdz */,
 				7A4025C6275402A000501F5D /* ToyAirplane.usdz */,
 			);
 			path = ARModelComponent;
@@ -350,7 +350,7 @@
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
 				1D328833275A8361009F4553 /* StudioStand.usdz in Resources */,
 				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
-				1D32882F275A7D4D009F4553 /* WoodenTable.usdz in Resources */,
+				1D328835275A8922009F4553 /* WoodenTable.usdz in Resources */,
 				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
 				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
 				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
