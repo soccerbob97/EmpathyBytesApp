@@ -69,7 +69,7 @@ class ARMenu : UIViewController{
 extension ARMenu : UITableViewDataSource, UITableViewDelegate {
     /** returns number of rows in tableview */
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 8
     }
     
     /** Dequeue a cell and return it */
