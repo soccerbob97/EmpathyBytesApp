@@ -10,10 +10,12 @@ import AVKit
 
 struct MusicView: View {
     var body: some View {
-        MusicPlayer().navigationTitle("Matthew Dick")
+        MusicPlayer()
+            //.navigationTitle("Matthew Dick")
 
        
     }
+    
 }
 
 struct MusicView_Previews: PreviewProvider {
@@ -23,7 +25,6 @@ struct MusicView_Previews: PreviewProvider {
 }
 
 struct MusicPlayer : View {
-    
     @State var data : Data = .init(count: 0)
     @State var title = ""
     @State var player : AVAudioPlayer!
@@ -34,7 +35,7 @@ struct MusicPlayer : View {
     @State var finish = false
     @State var del = AVdelegate()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    var btnBack : some View { Button(action: {
+    /*var btnBack : some View { Button(action: {
             self.presentationMode.wrappedValue.dismiss()
             }) {
                 HStack {
@@ -44,8 +45,17 @@ struct MusicPlayer : View {
                     Text("Go back")
                 }
             }
-        }
+        }*/
     var body : some View{
+        Text("")
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarItems(leading: Button(action : {
+                        self.player.pause()
+                        self.playing = false
+                        self.presentationMode.wrappedValue.dismiss()
+                    }){
+                        Image(systemName: "arrow.left")
+                    })
         VStack(spacing: 20){
             Text("Matthew Dick on being a Prototyping Instructor")
                 .font(.custom("Georgia", size: 20))
@@ -88,9 +98,9 @@ struct MusicPlayer : View {
             
             HStack(spacing: UIScreen.main.bounds.width / 5 - 30){
                 
-                     NavigationLink(destination: marionView()) {
+                     /*NavigationLink(destination: marionView()) {
                         Image(systemName: "backward.fill").font(.title)
-                       }
+                       }*/
                 
                 
                     Button(action: { //this button goes back 15 seconds in the audio
@@ -144,9 +154,9 @@ struct MusicPlayer : View {
                         Image(systemName: "goforward.15").font(.title)
                         
                     }
-                NavigationLink(destination: georgiaView()) {
+                /*NavigationLink(destination: georgiaView()) {
                     Image(systemName: "forward.fill").font(.title)
-                }
+                }*/
                 
             }.padding(.top,25)
             .foregroundColor(.black)
@@ -206,6 +216,8 @@ struct MusicPlayer : View {
     }
     
 }
+
+
 
 class AVdelegate : NSObject,AVAudioPlayerDelegate{
     
