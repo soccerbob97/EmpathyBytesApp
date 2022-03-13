@@ -67,7 +67,7 @@ struct ContentView: View {
                                         .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
                                 )
                         }
-                        NavigationLink(destination: ARMenuView()) {
+                        NavigationLink(destination: ARPage()) {
                             Text("AR")
                                 .fontWeight(.bold)
                                 .font(.custom("Georgia", size: 25))
