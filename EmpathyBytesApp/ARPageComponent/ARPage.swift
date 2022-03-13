@@ -38,7 +38,7 @@ struct ARPage: View {
                                 .stroke(Color(red: 0 / 255, green: 48 / 255, blue: 87 / 255), lineWidth: 5)
                         )
                 }
-                NavigationLink(destination: ARGameMenuView()) {
+                NavigationLink(destination: ARGameMenu()) {
                     Text("Game")
                         .fontWeight(.bold)
                         .font(.custom("Georgia", size: 25))
