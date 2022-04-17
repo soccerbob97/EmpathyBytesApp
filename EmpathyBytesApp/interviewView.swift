@@ -30,6 +30,21 @@ struct interviewView: View {
                 .padding([.horizontal])
                 //contains navigations to each interview, using cardview class that specifies the components of each card as image, date, title, and author
                 ScrollView {
+                    NavigationLink(destination: sheleahView()) {
+                        cardView(image: "logoCircuitsTech", category: "Spring 2022", heading: "Sheleah Harris", author:"by Greyson Mullins")
+                    }
+                    NavigationLink(destination: samahView()) {
+                        cardView(image: "logoCircuitsTech", category: "Spring 2022", heading: "Samah Khan", author:"by Greyson Mullins")
+                    }
+                    NavigationLink(destination: abiView()) {
+                        cardView(image: "logoCircuitsTech", category: "Fall 2021", heading: "Abi Ivemeyer", author:"by Jocelyn Kavanagh")
+                    }
+                    NavigationLink(destination: joelView()) {
+                        cardView(image: "logoCircuitsTech", category: "Fall 2021", heading: "Joel Jones", author:"by Jocelyn Kavanagh")
+                    }
+                    NavigationLink(destination: emaadView()) {
+                        cardView(image: "logoCircuitsTech", category: "Fall 2021", heading: "Emaad Shamsi", author:"by Jocelyn Kavanagh")
+                    }
                                         NavigationLink(destination: MusicView()) {
                         cardView(image: "invention", category: "April 30, 2020", heading: "Matthew Dick on being a Prototyping Instructor", author:"by Jaewon Drake")
                     }
@@ -39,6 +54,7 @@ struct interviewView: View {
                     NavigationLink(destination: marionView()) {
                         cardView(image: "distmath", category: "November 29, 2019", heading: "Dr. Marion Usselman on the Distance Math Program", author:"by Jaewon Drake")
                     }
+                    
  
             }
             

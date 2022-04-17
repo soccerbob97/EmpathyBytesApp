@@ -20,7 +20,21 @@
 		7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B327515D84002947A2 /* ImageConstants.swift */; };
 		7A4561B627515D89002947A2 /* ModelDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B527515D89002947A2 /* ModelDescriptionView.swift */; };
 		7A4561B827515D8E002947A2 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4561B727515D8E002947A2 /* ModelEntity.swift */; };
-		7AA3E1D5275A817600B7549F /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3E1D4275A817600B7549F /* WoodenTable.usdz */; };
+		7AA544CC280235D80066594F /* emaadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CB280235D80066594F /* emaadView.swift */; };
+		7AA544CE280237110066594F /* abiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CD280237110066594F /* abiView.swift */; };
+		7AA544D02802378B0066594F /* joelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544CF2802378B0066594F /* joelView.swift */; };
+		7AA544E92804F1030066594F /* ARGameMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544E42804F1020066594F /* ARGameMenuView.swift */; };
+		7AA544EA2804F1030066594F /* ARMatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544E52804F1020066594F /* ARMatchingGame.swift */; };
+		7AA544EB2804F1030066594F /* GameMenuStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544E62804F1020066594F /* GameMenuStoryboard.storyboard */; };
+		7AA544EC2804F1030066594F /* SkateboardMatching.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544E72804F1030066594F /* SkateboardMatching.usdz */; };
+		7AA544ED2804F1030066594F /* ARGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544E82804F1030066594F /* ARGameMenu.swift */; };
+		7AA544EF2804F1100066594F /* ARPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544EE2804F1100066594F /* ARPage.swift */; };
+		7AA544F12804F3E10066594F /* samahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544F02804F3E00066594F /* samahView.swift */; };
+		7AA544F52804F47D0066594F /* sheleahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA544F42804F47D0066594F /* sheleahView.swift */; };
+		7AA544FA2804F6250066594F /* placeholder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544F62804F6250066594F /* placeholder.mp3 */; };
+		7AA544FB2804F6250066594F /* joelAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544F72804F6250066594F /* joelAudio.mp3 */; };
+		7AA544FC2804F6250066594F /* emaadShamsi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544F82804F6250066594F /* emaadShamsi.mp3 */; };
+		7AA544FD2804F6250066594F /* abiAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7AA544F92804F6250066594F /* abiAudio.mp3 */; };
 		B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E995272C8AC800729BB7 /* AppDelegate.swift */; };
 		B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E999272C8AC800729BB7 /* Experience.rcproject */; };
 		B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B2E99B272C8AC900729BB7 /* Assets.xcassets */; };
@@ -82,6 +96,21 @@
 		7A4561B527515D89002947A2 /* ModelDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDescriptionView.swift; sourceTree = "<group>"; };
 		7A4561B727515D8E002947A2 /* ModelEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
 		7AA3E1D4275A817600B7549F /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
+		7AA544CB280235D80066594F /* emaadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = emaadView.swift; path = EmpathyBytesApp/emaadView.swift; sourceTree = SOURCE_ROOT; };
+		7AA544CD280237110066594F /* abiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abiView.swift; sourceTree = "<group>"; };
+		7AA544CF2802378B0066594F /* joelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joelView.swift; sourceTree = "<group>"; };
+		7AA544E42804F1020066594F /* ARGameMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARGameMenuView.swift; sourceTree = "<group>"; };
+		7AA544E52804F1020066594F /* ARMatchingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMatchingGame.swift; sourceTree = "<group>"; };
+		7AA544E62804F1020066594F /* GameMenuStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GameMenuStoryboard.storyboard; sourceTree = "<group>"; };
+		7AA544E72804F1030066594F /* SkateboardMatching.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = SkateboardMatching.usdz; sourceTree = "<group>"; };
+		7AA544E82804F1030066594F /* ARGameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARGameMenu.swift; sourceTree = "<group>"; };
+		7AA544EE2804F1100066594F /* ARPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPage.swift; sourceTree = "<group>"; };
+		7AA544F02804F3E00066594F /* samahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = samahView.swift; sourceTree = "<group>"; };
+		7AA544F42804F47D0066594F /* sheleahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheleahView.swift; sourceTree = "<group>"; };
+		7AA544F62804F6250066594F /* placeholder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = placeholder.mp3; sourceTree = "<group>"; };
+		7AA544F72804F6250066594F /* joelAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = joelAudio.mp3; sourceTree = "<group>"; };
+		7AA544F82804F6250066594F /* emaadShamsi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = emaadShamsi.mp3; sourceTree = "<group>"; };
+		7AA544F92804F6250066594F /* abiAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = abiAudio.mp3; sourceTree = "<group>"; };
 		B8B2E992272C8AC800729BB7 /* EmpathyBytesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpathyBytesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2E995272C8AC800729BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B2E999272C8AC800729BB7 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
@@ -158,6 +187,34 @@
 			path = ARModelComponent;
 			sourceTree = "<group>";
 		};
+		7AA544CA280233ED0066594F /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		7AA544E12804F0C50066594F /* ARGameComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7AA544E82804F1030066594F /* ARGameMenu.swift */,
+				7AA544E42804F1020066594F /* ARGameMenuView.swift */,
+				7AA544E52804F1020066594F /* ARMatchingGame.swift */,
+				7AA544E62804F1020066594F /* GameMenuStoryboard.storyboard */,
+				7AA544E72804F1030066594F /* SkateboardMatching.usdz */,
+			);
+			path = ARGameComponent;
+			sourceTree = "<group>";
+		};
+		7AA544E32804F0E60066594F /* ARPageComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7AA544EE2804F1100066594F /* ARPage.swift */,
+			);
+			path = ARPageComponent;
+			sourceTree = "<group>";
+		};
 		B8B2E989272C8AC800729BB7 = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +222,7 @@
 				B8B2E9A7272C8ACA00729BB7 /* EmpathyBytesAppTests */,
 				B8B2E9B1272C8ACA00729BB7 /* EmpathyBytesAppUITests */,
 				B8B2E993272C8AC800729BB7 /* Products */,
+				7AA544CA280233ED0066594F /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +239,8 @@
 		B8B2E994272C8AC800729BB7 /* EmpathyBytesApp */ = {
 			isa = PBXGroup;
 			children = (
+				7AA544E32804F0E60066594F /* ARPageComponent */,
+				7AA544E12804F0C50066594F /* ARGameComponent */,
 				7A4025C22754022D00501F5D /* ARModelComponent */,
 				B8B2E9C7272C8CFF00729BB7 /* ARMenuComponent */,
 				B8B2E995272C8AC800729BB7 /* AppDelegate.swift */,
@@ -191,6 +251,15 @@
 				7A4561B127515D36002947A2 /* AboutUs.swift */,
 				B8B2E9D6272C8D4700729BB7 /* empathyApp_header.h */,
 				B8B2E9D7272C8D5000729BB7 /* empathyAppApp.swift */,
+				7AA544CB280235D80066594F /* emaadView.swift */,
+				7AA544F02804F3E00066594F /* samahView.swift */,
+				7AA544F42804F47D0066594F /* sheleahView.swift */,
+				7AA544CD280237110066594F /* abiView.swift */,
+				7AA544F92804F6250066594F /* abiAudio.mp3 */,
+				7AA544F82804F6250066594F /* emaadShamsi.mp3 */,
+				7AA544F72804F6250066594F /* joelAudio.mp3 */,
+				7AA544F62804F6250066594F /* placeholder.mp3 */,
+				7AA544CF2802378B0066594F /* joelView.swift */,
 				B8B2E9D9272C8D5500729BB7 /* georgiaView.swift */,
 				B8B2E9DB272C8D6100729BB7 /* interviewView.swift */,
 				B8B2E9DD272C8D6800729BB7 /* marionAudio.mp3 */,
@@ -351,17 +420,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
+				7AA544FC2804F6250066594F /* emaadShamsi.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
+				7AA544EC2804F1030066594F /* SkateboardMatching.usdz in Resources */,
 				1D328837275A9905009F4553 /* StudioStand.usdz in Resources */,
+				7AA544EB2804F1030066594F /* GameMenuStoryboard.storyboard in Resources */,
 				B8B2E99F272C8AC900729BB7 /* Preview Assets.xcassets in Resources */,
 				7A4025C42754029100501F5D /* CNCControlPanel.usdz in Resources */,
 				C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */,
 				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
 				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
 				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
+				7AA544FB2804F6250066594F /* joelAudio.mp3 in Resources */,
 				7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */,
 				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
 				C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */,
+				7AA544FD2804F6250066594F /* abiAudio.mp3 in Resources */,
+				7AA544FA2804F6250066594F /* placeholder.mp3 in Resources */,
 				7A4025CF275402A300501F5D /* FlowerPot.usdz in Resources */,
 				B8B2E99C272C8AC900729BB7 /* Assets.xcassets in Resources */,
 			);
@@ -389,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B2E9DA272C8D5500729BB7 /* georgiaView.swift in Sources */,
+				7AA544F52804F47D0066594F /* sheleahView.swift in Sources */,
 				B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */,
 				B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */,
 				7A4561B227515D37002947A2 /* AboutUs.swift in Sources */,
@@ -400,17 +476,25 @@
 				B8B2E9E0272C8E8A00729BB7 /* marionView.swift in Sources */,
 				B8B2E9CF272C8D3000729BB7 /* cardView.swift in Sources */,
 				B8B2E9E8272C8EA900729BB7 /* SUIVideoPlayer.swift in Sources */,
+				7AA544D02802378B0066594F /* joelView.swift in Sources */,
+				7AA544EF2804F1100066594F /* ARPage.swift in Sources */,
 				B8B2E9E4272C8EA100729BB7 /* MusicView.swift in Sources */,
+				7AA544CC280235D80066594F /* emaadView.swift in Sources */,
 				B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */,
 				B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */,
 				7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */,
 				B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */,
 				B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */,
 				B8B2E9C9272C8D1400729BB7 /* ARMenuView.swift in Sources */,
+				7AA544E92804F1030066594F /* ARGameMenuView.swift in Sources */,
+				7AA544ED2804F1030066594F /* ARGameMenu.swift in Sources */,
 				B8B2E99A272C8AC800729BB7 /* Experience.rcproject in Sources */,
 				7A4025D2275402F400501F5D /* ARModel.swift in Sources */,
 				B8B2E9C6272C8CE600729BB7 /* ARMenu.swift in Sources */,
+				7AA544CE280237110066594F /* abiView.swift in Sources */,
 				7A4025CD275402A300501F5D /* ARModelView.swift in Sources */,
+				7AA544EA2804F1030066594F /* ARMatchingGame.swift in Sources */,
+				7AA544F12804F3E10066594F /* samahView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
