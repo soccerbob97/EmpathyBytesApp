@@ -4,7 +4,6 @@
 //
 //  Created by Princess Empel on 4/15/22.
 //
-
 import SwiftUI
 import AVKit
 
@@ -58,7 +57,7 @@ struct alysonLamPlayer : View {
                         .frame(width: self.data.count == 0 ? 150 : nil, height: 150)
                         .cornerRadius(15)
                         .padding()
-                    Text("The Interdisciplinary Design Commons is one of the newer Makerspaces on Georgia Tech's campus. It is student operated by the organization known as The Hive. They strive to teach students practical skills in electrical and computer engineering while fostering a unique community of inventors, designers, and engineers. Alyson Lam, the Communications Officer for The Hive, tells of her experience joining The Hive community and of its importance to the Georgia Tech campus.")
+                    Text("The Interdisciplinary Design Commons is the newest Makerspace on Georgia Tech’s campus. It is student operated by the organization known as The Hive. The Hive strives to teach students practical skills in electrical and computer engineering while fostering a unique community of inventors, designers, and engineers. Alyson Lam, the Communications Officer for The Hive, tells of her experience joining The Hive community and of the communities importance to the Georgia Tech campus.")
                         .font(.system(size: 13, weight: .medium, design: .serif))
                         .foregroundColor(.init(red: 0/255, green: 48/255, blue: 87/255))
                         .padding()
@@ -215,3 +214,4 @@ class AVdelegateAlysonLam : NSObject,AVAudioPlayerDelegate{
         NotificationCenter.default.post(name: NSNotification.Name("Finish"), object: nil)
     }
 }
+

@@ -60,6 +60,12 @@
 		B8B2E9E6272C8EA500729BB7 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E5272C8EA500729BB7 /* Sounds.swift */; };
 		B8B2E9E8272C8EA900729BB7 /* SUIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */; };
 		B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2E9E9272C8EAE00729BB7 /* Utility.swift */; };
+		BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B262814A2FF00145F91 /* alysonLamView.swift */; };
+		BCA81B2D2814A5FD00145F91 /* amitJariwalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B282814A5FD00145F91 /* amitJariwalaView.swift */; };
+		BCA81B2E2814A5FD00145F91 /* amitJariwalaAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCA81B292814A5FD00145F91 /* amitJariwalaAudio.mp3 */; };
+		BCA81B2F2814A5FD00145F91 /* daneWryeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA81B2A2814A5FD00145F91 /* daneWryeView.swift */; };
+		BCA81B302814A5FD00145F91 /* alysonLamAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCA81B2B2814A5FD00145F91 /* alysonLamAudio.mp3 */; };
+		BCA81B312814A5FD00145F91 /* daneWryeAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCA81B2C2814A5FD00145F91 /* daneWryeAudio.mp3 */; };
 		C8F1E6B0275A7D3000CAC435 /* WoodenTable.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */; };
 		C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */; };
 /* End PBXBuildFile section */
@@ -140,6 +146,12 @@
 		B8B2E9E5272C8EA500729BB7 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		B8B2E9E7272C8EA900729BB7 /* SUIVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUIVideoPlayer.swift; sourceTree = "<group>"; };
 		B8B2E9E9272C8EAE00729BB7 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BCA81B262814A2FF00145F91 /* alysonLamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alysonLamView.swift; sourceTree = "<group>"; };
+		BCA81B282814A5FD00145F91 /* amitJariwalaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = amitJariwalaView.swift; path = "../../../../Desktop/VIP Stuff/amitJariwalaView.swift"; sourceTree = "<group>"; };
+		BCA81B292814A5FD00145F91 /* amitJariwalaAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amitJariwalaAudio.mp3; path = "../../../../Desktop/VIP Stuff/amitJariwalaAudio.mp3"; sourceTree = "<group>"; };
+		BCA81B2A2814A5FD00145F91 /* daneWryeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = daneWryeView.swift; path = "../../../../Desktop/VIP Stuff/daneWryeView.swift"; sourceTree = "<group>"; };
+		BCA81B2B2814A5FD00145F91 /* alysonLamAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alysonLamAudio.mp3; path = "../../../../Desktop/VIP Stuff/alysonLamAudio.mp3"; sourceTree = "<group>"; };
+		BCA81B2C2814A5FD00145F91 /* daneWryeAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daneWryeAudio.mp3; path = "../../../../Desktop/VIP Stuff/daneWryeAudio.mp3"; sourceTree = "<group>"; };
 		C8F1E6AF275A7D3000CAC435 /* WoodenTable.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = WoodenTable.usdz; sourceTree = "<group>"; };
 		C8F1E6B5275A81D500CAC435 /* MechanicalKeyboard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MechanicalKeyboard.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,6 +251,12 @@
 		B8B2E994272C8AC800729BB7 /* EmpathyBytesApp */ = {
 			isa = PBXGroup;
 			children = (
+				BCA81B2B2814A5FD00145F91 /* alysonLamAudio.mp3 */,
+				BCA81B292814A5FD00145F91 /* amitJariwalaAudio.mp3 */,
+				BCA81B282814A5FD00145F91 /* amitJariwalaView.swift */,
+				BCA81B2C2814A5FD00145F91 /* daneWryeAudio.mp3 */,
+				BCA81B2A2814A5FD00145F91 /* daneWryeView.swift */,
+				BCA81B262814A2FF00145F91 /* alysonLamView.swift */,
 				7AA544E32804F0E60066594F /* ARPageComponent */,
 				7AA544E12804F0C50066594F /* ARGameComponent */,
 				7A4025C22754022D00501F5D /* ARModelComponent */,
@@ -420,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B2E9D5272C8D4400729BB7 /* dickAudio.mp3 in Resources */,
+				BCA81B312814A5FD00145F91 /* daneWryeAudio.mp3 in Resources */,
 				7AA544FC2804F6250066594F /* emaadShamsi.mp3 in Resources */,
 				B8B2E9CB272C8D1F00729BB7 /* ARViewStoryboard.storyboard in Resources */,
 				7AA544EC2804F1030066594F /* SkateboardMatching.usdz in Resources */,
@@ -431,8 +450,10 @@
 				7A4025CE275402A300501F5D /* ChristmasTree.usdz in Resources */,
 				7A4025D4275405C700501F5D /* Main.storyboard in Resources */,
 				7A4025CC275402A300501F5D /* ToyAirplane.usdz in Resources */,
+				BCA81B302814A5FD00145F91 /* alysonLamAudio.mp3 in Resources */,
 				7AA544FB2804F6250066594F /* joelAudio.mp3 in Resources */,
 				7A4025CB275402A300501F5D /* Skateboard.usdz in Resources */,
+				BCA81B2E2814A5FD00145F91 /* amitJariwalaAudio.mp3 in Resources */,
 				B8B2E9DE272C8D6800729BB7 /* marionAudio.mp3 in Resources */,
 				C8F1E6B6275A81D500CAC435 /* MechanicalKeyboard.usdz in Resources */,
 				7AA544FD2804F6250066594F /* abiAudio.mp3 in Resources */,
@@ -463,9 +484,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA81B2D2814A5FD00145F91 /* amitJariwalaView.swift in Sources */,
 				B8B2E9DA272C8D5500729BB7 /* georgiaView.swift in Sources */,
 				7AA544F52804F47D0066594F /* sheleahView.swift in Sources */,
 				B8B2E9D8272C8D5000729BB7 /* empathyAppApp.swift in Sources */,
+				BCA81B2F2814A5FD00145F91 /* daneWryeView.swift in Sources */,
 				B8B2E9EA272C8EAF00729BB7 /* Utility.swift in Sources */,
 				7A4561B227515D37002947A2 /* AboutUs.swift in Sources */,
 				B8B2E9CD272C8D2400729BB7 /* CustomTableViewCell.swift in Sources */,
@@ -482,6 +505,7 @@
 				7AA544CC280235D80066594F /* emaadView.swift in Sources */,
 				B8B2E9E2272C8E9C00729BB7 /* matthewView.swift in Sources */,
 				B8B2E9DC272C8D6100729BB7 /* interviewView.swift in Sources */,
+				BCA81B272814A2FF00145F91 /* alysonLamView.swift in Sources */,
 				7A4561B427515D84002947A2 /* ImageConstants.swift in Sources */,
 				B8B2E996272C8AC800729BB7 /* AppDelegate.swift in Sources */,
 				B8B2E9D3272C8D3D00729BB7 /* ContentView.swift in Sources */,

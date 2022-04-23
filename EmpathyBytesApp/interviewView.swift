@@ -45,17 +45,26 @@ struct interviewView: View {
                     NavigationLink(destination: emaadView()) {
                         cardView(image: "logoCircuitsTech", category: "Fall 2021", heading: "Emaad Shamsi", author:"by Jocelyn Kavanagh")
                     }
-                                        NavigationLink(destination: MusicView()) {
-                        cardView(image: "invention", category: "April 30, 2020", heading: "Matthew Dick on being a Prototyping Instructor", author:"by Jaewon Drake")
+                    NavigationLink(destination: daneWryeView()) {
+                        cardView(image: "logoCircuitsTech", category: "November 28, 2020", heading: "Dane Wrye on The Hive Community", author:"by Jocelyn Kavanagh")
                     }
-                    NavigationLink(destination: georgiaView()) {
-                        cardView(image: "ringgold", category: "February 27, 2020", heading: "Ringgold, Georgia: Lara Langston", author:"by Hunter Copp")
+                    NavigationLink(destination: amitJariwalaView()) {
+                        cardView(image: "logoCircuitsTech", category: "November 27, 2020", heading: "Dr. Amit Jariwala on the origins of the Invention Studio", author:"by Jocelyn Kavanagh")
                     }
-                    NavigationLink(destination: marionView()) {
-                        cardView(image: "distmath", category: "November 29, 2019", heading: "Dr. Marion Usselman on the Distance Math Program", author:"by Jaewon Drake")
+                    NavigationLink(destination: alysonLamView()) {
+                        cardView(image: "logoCircuitsTech", category: "November 27, 2020", heading: "Alyson Lam on working at The Hive", author:"by Jocelyn Kavanagh")
                     }
-                    
- 
+                    ScrollView {
+                        NavigationLink(destination: MusicView()) {
+                            cardView(image: "invention", category: "April 30, 2020", heading: "Matthew Dick on being a Prototyping Instructor", author:"by Jaewon Drake")
+                        }
+                        NavigationLink(destination: georgiaView()) {
+                            cardView(image: "ringgold", category: "February 27, 2020", heading: "Ringgold, Georgia: Lara Langston", author:"by Hunter Copp")
+                        }
+                        NavigationLink(destination: marionView()) {
+                            cardView(image: "distmath", category: "November 29, 2019", heading: "Dr. Marion Usselman on the Distance Math Program", author:"by Jaewon Drake")
+                        }
+                    }
             }
             
             
