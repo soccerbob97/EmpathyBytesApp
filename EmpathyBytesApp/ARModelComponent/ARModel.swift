@@ -18,6 +18,7 @@ class ARModel : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var cancellable: AnyCancellable? = nil;
+        print(modelTitle)
         let sphereAnchor = AnchorEntity(world: SIMD3(x:0, y:0, z:-50));
         cancellable = RealityKit.ModelEntity.loadModelAsync(named: modelTitle, in:nil).collect().sink(receiveCompletion: {error in print("Error: \(error)")
             cancellable?.cancel()
