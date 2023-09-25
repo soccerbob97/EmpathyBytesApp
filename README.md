@@ -5,3 +5,6 @@ from the Invention Studio and The Hive makerspaces, and those interviews are inc
 AR makerspace gallery where users can learn about the products students has made in the makerspace by seeing descriptions of the object and
 the object in their environment using AR. This promotes empathy because users understand what can be accomplished in the makerspace by looking 
 at the finished products in their environment through AR.
+
+Video:
+https://drive.google.com/drive/folders/1oc06U3MCk9lhG2E4gI3_Qib9WCQo2oL9?usp=share_link
